@@ -59,41 +59,7 @@
 
 > if docs grow too large for single-file navigation.
 
-# 0002 - github issues and project workflow
-
-> status: accepted  
-> tags: rule, workflow, project-specific
-
-## rule
-
-> use github issues as primary task tracking system. create all work items as issues and organize them via github projects. use vs code extension (github.vscode-pull-request-github) to create, view, and manage issues and pull requests, or use github web ui when needed.
-
-## reason
-
-> centralizes work tracking. enables structured planning. improves traceability between tasks and code. keeps development workflow consistent across ide and github.
-
-## revisit
-
-> if a different project management system replaces github issues.
-
-# 0003 - commit linking rule
-
-> status: accepted  
-> tags: rule, workflow, project-specific
-
-## rule
-
-> include github issue references in commit messages using keywords (closes #id, fixes #id, resolves #id) together with a normal descriptive commit message.
-
-## reason
-
-> enables automatic traceability between code changes and tracked work items.
-
-## revisit
-
-> if a different issue tracking system replaces github issues.
-
-# 0004 - dev folder
+# 0002 - dev folder
 
 > status: accepted  
 > tags: rule, workflow, project-specific
