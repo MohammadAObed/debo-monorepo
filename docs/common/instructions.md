@@ -7,11 +7,11 @@
 
 > update windows system via settings.
 >
-> install/update core development tools: google chrome, visual studio code, git for windows (includes git bash), node.js lts (includes npm), autoHotkey.
+> install/update core development tools: google chrome, visual studio code, git for windows (includes git bash), node.js lts (includes npm), pnpm, autoHotkey.
 >
 > install/update mobile development tools: android studio (includes sdk + emulator tools).
 >
-> verify installations in git bash using: `git --version`, `node --version`, `npm --version`.
+> verify installations in git bash using: `git --version`, `node --version`, `npm --version`, `pnpm --version`.
 >
 > install vscode extensions grouped by purpose:
 
@@ -145,7 +145,7 @@
 
 ## rule
 
-> use github issues as primary task tracking system. create all work items as issues and organize them via github projects.
+> use github issues as primary task tracking system. create all work items as issues and organize them via github **projects**.
 >
 > use vscode extension (github.vscode-pull-request-github) to create, view, and manage issues and pull requests, or use github web ui when needed.
 
